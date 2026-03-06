@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto',sans-serif;
+}
+
+.navbar
+{
+    display:flex;
+    justify-content: space-between;
+    background-color:#1F2937;
+    align-content: center;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 10px;
+    align-items: center;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    font:18px;
+    color: #E5E7EB;
+    transition:color 0.5s;
+    
+}
+
+.nav-links a:hover{
+    color: bisque;
+}
