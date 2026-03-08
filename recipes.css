@@ -6,14 +6,22 @@
 
 body{
     font-family:'Roboto',sans-serif;
+    
+}
+
+h1{
+    color: #F9FAF8;
+    size: 48px;
+    font-weight: 900;
 }
 
 .navbar
 {
     display:flex;
-    justify-content: space-between;
+    justify-content:space-around;
     background-color:#1F2937;
     align-content: center;
+    
 }
 
 .nav-links{
@@ -22,6 +30,7 @@ body{
     gap: 30px;
     margin: 10px;
     align-items: center;
+
     
 }
 
@@ -36,3 +45,37 @@ body{
 .nav-links a:hover{
     color: bisque;
 }
+
+header{
+    display: flex;
+    background-color:#1F2937;
+    padding:0px 100px 50px 95px;
+    justify-content:space-around;
+    align-content: center;
+   
+}
+
+.info{
+    width: 400px;
+    height: 170px;
+    max-width: 100%;
+    height: auto;
+}
+
+.info p{
+    font:18px;
+    color: #E5E7EB;
+}
+
+.header-Img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info button{
+    background-color:#3882F6;
+    padding:5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
