@@ -79,3 +79,26 @@ header{
     border: none;
 }
 
+h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top:20px;
+}
+
+.wrapper div img{
+    display: block;
+}
+
+.wrapper div{
+    text-align: center;
+}
+
+
+.wrapper{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top:70px;
+}
