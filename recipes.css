@@ -15,23 +15,23 @@ h1{
     font-weight: 900;
 }
 
-.navbar
-{
-    display:flex;
-    justify-content:space-around;
+nav{
     background-color:#1F2937;
-    align-content: center;
-    
+    padding: 0px 120px;
 }
 
 .nav-links{
     display: flex;
     list-style: none;
     gap: 30px;
-    margin: 10px;
-    align-items: center;
-
+    align-items:center;
+    justify-content: end;
     
+}
+
+li.logo{
+    margin-right: auto;
+
 }
 
 .nav-links a{
