@@ -106,16 +106,12 @@ h1{
 section.quote{
     background-color:#E5E7EB;
     font: 30px #1F2937;
-    padding:50px 100px;
+    padding:50px 200px;
     margin-top: 50px;
+    text-align: center;
    
 }
 
-section p{
-    width: 750px;
-    text-align: center;
-
-}
 
 section.signup{
     display: flex;
@@ -135,3 +131,9 @@ section.signup button{
     border-color:white;
 }
 
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding:20px;
+}
