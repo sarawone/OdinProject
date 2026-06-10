@@ -103,7 +103,7 @@ h1{
     margin-top:70px;
 }
 
-section{
+section.quote{
     background-color:#E5E7EB;
     font: 30px #1F2937;
     padding:50px 100px;
@@ -116,3 +116,22 @@ section p{
     text-align: center;
 
 }
+
+section.signup{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #3882F6;
+    padding:25px 0px;
+    border-radius: 5px;
+    margin:50px 80px;
+    color:#E5E7EB;
+}
+
+section.signup button{
+    padding:3px 10px;
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border-radius:15px;
+    border-color:white;
+}
+
