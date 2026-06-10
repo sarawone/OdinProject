@@ -4,21 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./recipes.css">
 </head>
 <body>
-    <nav>
-        <img src ="./logo.png" width="150px" height="150px" alt="logo with note& pencil">
-        <ul>
-            <li>Quick & Easy</li>
-            <li>Trending Recipes</li>
+
+    <!--Navigation bar-->
+    <nav >
+        
+        <ul class="nav-links">
+            <li class="logo"><img src ="./logo.svg" width="150px" height="150px" alt="logo with note& pencil"></li>
+            <li><a href="./recipes/Lahpet.html">Quick & Easy</a></li>
+            <li><a href="./recipes/shan.html">Trending Recipes</a></li>
         </ul>
     </nav>
-    <h1>Odin Recipes</h1> 
-    <ul>
-        <li><a href="./recipes/Lahpet.html">Laphet Thoke(Tea Lafe Salad)</a></li>
-        <li><a href="./recipes/shan.html">Shan Noodles</a></li>
-        <li><a href="./recipes/mohinga.html">Mohinga Soup</a></li>
-    </ul>
+
+    <!--header-->
+    <header>
+        <div class="info">
+            <h1>
+                Discover Delicious Recipes for Every Day
+            </h1>
+            <p>
+            Explore a collection of recipes from around the world. 
+            Whether you're a beginner or a food lover, find simple step-by-step recipes that make cooking enjoyable.
+            </p>
+            <input type="text" placeholder="Search recipes..." >
+            <button>Search</button>
+        </div>
+        <div class="header-Img">
+            <img src="./header.png" width="300px" height="170px" alt="chef preparing meal on the table">
+         </div>
+
+    </header>
+
+
+    <!--main-->  
+   <main>
+        <h1>The Trending Recipes</h1> 
+
+           <div class="wrapper">
+                <div>
+                   
+                    <a href="./recipes/Lahpet.html"> <img src="./Laphet Thoke.png" width="150px" height="150px" alt="Tea Leaf salad on the white plate with two spoons"></a>
+                    <h3>Laphet Thoke</h3>
+                </div>
+                <div>
+                    
+                    <a href="./recipes/shan.html"><img src="../Shannoodle.jpg" width="150px" height="150px" alt="Shan Noodle on the plate "></a>
+                    <h3>Shan Noodles</h3>
+                </div>
+                <div>
+                    <a href="./recipes/mohinga.html"><img src="../mohinga.jpg" width="150px" height="150px" alt="Mohinga Soup on the white plate "></a>
+                    <h3>Mohinga Soup</h3>
+                </div>
+            </div>
+
+            <section class="quote">
+                <p >
+                        Every recipe tells a story, and every meal creates a memory. Explore flavors from around the world, discover inspiring dishes, and turn simple ingredients into extraordinary meals. Whether you're a beginner or an experienced home cook, our collection of recipes will help you cook with confidence, share with love, and bring people together around great food.  
+                </p>
+            </section>
+
+            <section class="signup">
+                <div>
+                    <h4>Call to action!It's time!</h4>
+                    <h6>Sign up for our product by clicking that button right over there!</h6>
+                </div>
+                <button>Signup</button>
+            </section>
+
+    </main> 
+
+    <footer>
+        <p>Copyright @ The Odin Project 2026 by AYK</p>
+    </footer>
     
 </body>
 </html>
