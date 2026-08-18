@@ -36,18 +36,18 @@ function playRound(human,computer)
 {
     if ((human=="r" && computer == "s") ||(human == "s" && computer == "p") || (human == "p" && computer == "r"))
     {
-        console.log("You win!");
+        alert("You win!");
         humanScore +=1;
         console.log(`Your Score:${humanScore} Computer Score:${computerScore}`);
     }
     else if (human == computer)
     {
-        console.log("Tie!")
+        alert("Tie!")
         console.log(`Your Score:${humanScore} Computer Score:${computerScore}`);
     }
     else
     {
-        console.log("Computer Win!")
+        alert("Computer Win!")
         computerScore +=1;
         console.log(`Your Score:${humanScore} Computer Score:${computerScore}`);
     }
